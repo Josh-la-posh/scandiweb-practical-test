@@ -2,7 +2,6 @@ module.exports = {
     extends: [
         '@scandipwa',
     ],
-    ignorePatterns: ["src/**"],
     parserOptions: {
         tsconfigRootDir: __dirname,
         project: './tsconfig.json',
